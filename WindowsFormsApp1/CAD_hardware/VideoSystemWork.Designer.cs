@@ -28,20 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(65, 82);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(319, 43);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Запросить системные параметры о видеосистеме";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
+            this.label1.Location = new System.Drawing.Point(21, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(412, 24);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "Выберите одно из следующих действий";
             // 
             // VideoSystemWork
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(405, 421);
+            this.ClientSize = new System.Drawing.Size(455, 421);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button1);
             this.Name = "VideoSystemWork";
             this.Text = "VideoSystemWork";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
     }
 }

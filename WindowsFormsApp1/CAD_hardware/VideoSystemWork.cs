@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1.VideoSystem;
 
 namespace WindowsFormsApp1.CAD_hardware
 {
@@ -15,6 +16,12 @@ namespace WindowsFormsApp1.CAD_hardware
         public VideoSystemWork()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SystemParametersInfoForm systemParametersInfoForm = new SystemParametersInfoForm();
+            systemParametersInfoForm.Show();
         }
     }
 }

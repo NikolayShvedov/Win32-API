@@ -41,5 +41,17 @@ namespace WindowsFormsApp1.CAD_hardware
             CreateDirectoryForm createDirectoryForm = new CreateDirectoryForm();
             createDirectoryForm.Show();
         }
+
+        private void buttonRemoveDirectory_Click(object sender, EventArgs e)
+        {
+            RemoveDirectoryForm removeDirectoryForm = new RemoveDirectoryForm();
+            removeDirectoryForm.Show();
+        }
+
+        private void buttonMoveFile_Click(object sender, EventArgs e)
+        {
+            MoveFileForm moveFileForm = new MoveFileForm();
+            moveFileForm.Show();
+        }
     }
 }
