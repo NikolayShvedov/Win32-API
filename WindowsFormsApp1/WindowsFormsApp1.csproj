@@ -186,6 +186,18 @@
     <Compile Include="ManualInputDevice\SystemParametersInfoForm.Designer.cs">
       <DependentUpon>SystemParametersInfoForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Printer\GetDeviceCapsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Printer\GetDeviceCapsForm.Designer.cs">
+      <DependentUpon>GetDeviceCapsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Printer\GetProfileStringForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Printer\GetProfileStringForm.Designer.cs">
+      <DependentUpon>GetProfileStringForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VideoSystem\BitBltForm.cs">
@@ -277,6 +289,9 @@
     <EmbeddedResource Include="ManualInputDevice\SystemParametersInfoForm.resx">
       <DependentUpon>SystemParametersInfoForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Printer\GetProfileStringForm.resx">
+      <DependentUpon>GetProfileStringForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -321,7 +336,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Printer\" />
     <Folder Include="SerialInterface\" />
   </ItemGroup>
   <ItemGroup>

@@ -49,9 +49,9 @@
             // 
             // buttonGetKeyboardType
             // 
-            this.buttonGetKeyboardType.Location = new System.Drawing.Point(86, 78);
+            this.buttonGetKeyboardType.Location = new System.Drawing.Point(74, 80);
             this.buttonGetKeyboardType.Name = "buttonGetKeyboardType";
-            this.buttonGetKeyboardType.Size = new System.Drawing.Size(319, 36);
+            this.buttonGetKeyboardType.Size = new System.Drawing.Size(364, 33);
             this.buttonGetKeyboardType.TabIndex = 7;
             this.buttonGetKeyboardType.Text = "Извлечь информацию о текущей клавиатуре";
             this.buttonGetKeyboardType.UseVisualStyleBackColor = true;
@@ -59,9 +59,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(86, 130);
+            this.button1.Location = new System.Drawing.Point(74, 130);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(319, 44);
+            this.button1.Size = new System.Drawing.Size(364, 44);
             this.button1.TabIndex = 8;
             this.button1.Text = "Посмотреть, нажата ли клавиша на клавиатуре";
             this.button1.UseVisualStyleBackColor = true;
@@ -69,9 +69,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(86, 189);
+            this.button2.Location = new System.Drawing.Point(74, 189);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(319, 43);
+            this.button2.Size = new System.Drawing.Size(364, 43);
             this.button2.TabIndex = 9;
             this.button2.Text = "Запросить системные параметры";
             this.button2.UseVisualStyleBackColor = true;
@@ -79,9 +79,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(86, 247);
+            this.button3.Location = new System.Drawing.Point(74, 247);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(319, 44);
+            this.button3.Size = new System.Drawing.Size(364, 44);
             this.button3.TabIndex = 10;
             this.button3.Text = "Изменить или восстанавить значения левой и правой кнопок мыши";
             this.button3.UseVisualStyleBackColor = true;
@@ -89,9 +89,9 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(86, 306);
+            this.button4.Location = new System.Drawing.Point(74, 306);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(319, 43);
+            this.button4.Size = new System.Drawing.Size(364, 43);
             this.button4.TabIndex = 11;
             this.button4.Text = "Ограничить курсор прямоугольной областью на экране";
             this.button4.UseVisualStyleBackColor = true;
@@ -99,9 +99,9 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(86, 365);
+            this.button5.Location = new System.Drawing.Point(74, 365);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(319, 44);
+            this.button5.Size = new System.Drawing.Size(364, 44);
             this.button5.TabIndex = 12;
             this.button5.Text = "Перемещение курсора к указанным координатам экрана";
             this.button5.UseVisualStyleBackColor = true;

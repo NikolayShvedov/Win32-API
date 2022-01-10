@@ -1,6 +1,6 @@
-﻿namespace WindowsFormsApp1.ManualInputDevice
+﻿namespace WindowsFormsApp1.Printer
 {
-    partial class GetKeyboardTypeForm
+    partial class GetProfileStringForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(243, 278);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(369, 34);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Определить значение ключа в секции файла WIN.INI";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // listBox1
             // 
@@ -39,35 +49,25 @@
             this.listBox1.Location = new System.Drawing.Point(12, 12);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(600, 260);
-            this.listBox1.TabIndex = 9;
+            this.listBox1.TabIndex = 15;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(234, 281);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(378, 34);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Получить данных о подключённых клавиатурах";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // GetKeyboardTypeForm
+            // GetProfileStringForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(629, 327);
+            this.ClientSize = new System.Drawing.Size(628, 325);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);
-            this.Name = "GetKeyboardTypeForm";
-            this.Text = "GetKeyboardTypeForm";
+            this.Name = "GetProfileStringForm";
+            this.Text = "GetProfileStringForm";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
