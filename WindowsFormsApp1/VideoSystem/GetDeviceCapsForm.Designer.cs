@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1.VideoSystem
 {
-    partial class GetSystemMetricsForm
+    partial class GetDeviceCapsForm
     {
         /// <summary>
         /// Required designer variable.
@@ -34,11 +34,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(388, 278);
+            this.button1.Location = new System.Drawing.Point(388, 395);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(224, 34);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Получить системную метрику";
+            this.button1.Size = new System.Drawing.Size(233, 43);
+            this.button1.TabIndex = 16;
+            this.button1.Text = "Получить информацию об устройстве";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -48,19 +48,19 @@
             this.listBox1.ItemHeight = 16;
             this.listBox1.Location = new System.Drawing.Point(12, 12);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(600, 260);
-            this.listBox1.TabIndex = 13;
+            this.listBox1.Size = new System.Drawing.Size(609, 372);
+            this.listBox1.TabIndex = 15;
             // 
-            // GetSystemMetricsForm
+            // GetDeviceCapsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(638, 326);
+            this.ClientSize = new System.Drawing.Size(633, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);
-            this.Name = "GetSystemMetricsForm";
-            this.Text = "GetSystemMetricsForm";
+            this.Name = "GetDeviceCapsForm";
+            this.Text = "GetDeviceCapsForm";
             this.ResumeLayout(false);
 
         }

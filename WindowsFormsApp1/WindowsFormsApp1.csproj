@@ -188,12 +188,32 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VideoSystem\BitBltForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VideoSystem\BitBltForm.Designer.cs">
+      <DependentUpon>BitBltForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VideoSystem\ChangeDisplaySettingsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VideoSystem\ChangeDisplaySettingsForm.Designer.cs">
+      <DependentUpon>ChangeDisplaySettingsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VideoSystem\enums\DeviceCap.cs" />
+    <Compile Include="VideoSystem\GetDeviceCapsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VideoSystem\GetDeviceCapsForm.Designer.cs">
+      <DependentUpon>GetDeviceCapsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="VideoSystem\GetSystemMetricsForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="VideoSystem\GetSystemMetricsForm.Designer.cs">
       <DependentUpon>GetSystemMetricsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="VideoSystem\enums\SystemMetric.cs" />
     <Compile Include="VideoSystem\SystemParametersInfoForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -266,6 +286,18 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="VideoSystem\BitBltForm.resx">
+      <DependentUpon>BitBltForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VideoSystem\ChangeDisplaySettingsForm.resx">
+      <DependentUpon>ChangeDisplaySettingsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VideoSystem\GetDeviceCapsForm.resx">
+      <DependentUpon>GetDeviceCapsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VideoSystem\GetSystemMetricsForm.resx">
+      <DependentUpon>GetSystemMetricsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VideoSystem\SystemParametersInfoForm.resx">
       <DependentUpon>SystemParametersInfoForm.cs</DependentUpon>
     </EmbeddedResource>

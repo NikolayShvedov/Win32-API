@@ -33,3 +33,6 @@ C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFo
 C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ManualInputDevice.ClipCursorForm.resources
 C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ManualInputDevice.SetCursorPosForm.resources
 C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.VideoSystem.SystemParametersInfoForm.resources
+C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.VideoSystem.GetSystemMetricsForm.resources
+C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.VideoSystem.GetDeviceCapsForm.resources
+C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.VideoSystem.ChangeDisplaySettingsForm.resources
