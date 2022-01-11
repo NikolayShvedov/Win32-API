@@ -186,6 +186,12 @@
     <Compile Include="ManualInputDevice\SystemParametersInfoForm.Designer.cs">
       <DependentUpon>SystemParametersInfoForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Printer\BitBltForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Printer\BitBltForm.Designer.cs">
+      <DependentUpon>BitBltForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Printer\GetDeviceCapsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,6 +203,18 @@
     </Compile>
     <Compile Include="Printer\GetProfileStringForm.Designer.cs">
       <DependentUpon>GetProfileStringForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Printer\PrintDlgForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Printer\PrintDlgForm.Designer.cs">
+      <DependentUpon>PrintDlgForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Printer\WriteFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Printer\WriteFileForm.Designer.cs">
+      <DependentUpon>WriteFileForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -289,8 +307,20 @@
     <EmbeddedResource Include="ManualInputDevice\SystemParametersInfoForm.resx">
       <DependentUpon>SystemParametersInfoForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Printer\BitBltForm.resx">
+      <DependentUpon>BitBltForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printer\GetDeviceCapsForm.resx">
+      <DependentUpon>GetDeviceCapsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Printer\GetProfileStringForm.resx">
       <DependentUpon>GetProfileStringForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printer\PrintDlgForm.resx">
+      <DependentUpon>PrintDlgForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Printer\WriteFileForm.resx">
+      <DependentUpon>WriteFileForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -351,6 +381,33 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
     <COMReference Include="Win32_TPMLib">
       <Guid>{61E207A5-827C-42E9-ADFA-165C6A745EE4}</Guid>
       <VersionMajor>1</VersionMajor>

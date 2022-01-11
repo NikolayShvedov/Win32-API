@@ -38,3 +38,7 @@ C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFo
 C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.VideoSystem.ChangeDisplaySettingsForm.resources
 C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.VideoSystem.BitBltForm.resources
 C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Printer.GetProfileStringForm.resources
+C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Printer.GetDeviceCapsForm.resources
+C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Printer.PrintDlgForm.resources
+C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Printer.WriteFileForm.resources
+C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Printer.BitBltForm.resources
