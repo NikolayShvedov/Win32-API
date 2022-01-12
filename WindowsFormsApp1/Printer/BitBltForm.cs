@@ -14,21 +14,21 @@ namespace WindowsFormsApp1.Printer
             InitializeComponent();
         }
 
-        private System.IO.Stream streamToPrint;
+        private Stream streamToPrint;
         string streamType;
 
         [System.Runtime.InteropServices.DllImport("gdi32.dll")]
         private static extern bool BitBlt
         (
-        IntPtr hdcDest,         // handle to destination DC  
+            IntPtr hdcDest,     // handle to destination DC  
             int nXDest,         // x-coord of destination upper-left corner  
             int nYDest,         // y-coord of destination upper-left corner  
             int nWidth,         // width of destination rectangle  
             int nHeight,        // height of destination rectangle  
-        IntPtr hdcSrc,          // handle to source DC  
+            IntPtr hdcSrc,      // handle to source DC  
             int nXSrc,          // x-coordinate of source upper-left corner  
             int nYSrc,          // y-coordinate of source upper-left corner  
-        Int32 dwRop      // raster operation code  
+            Int32 dwRop         // raster operation code  
         );
 
         private void printDoc_PrintPage(object sender, PrintPageEventArgs e)

@@ -42,3 +42,4 @@ C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFo
 C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Printer.PrintDlgForm.resources
 C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Printer.WriteFileForm.resources
 C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Printer.BitBltForm.resources
+C:\Users\ПК\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.SerialInterface.ConfiguringReceivingSideParametersForm.resources
