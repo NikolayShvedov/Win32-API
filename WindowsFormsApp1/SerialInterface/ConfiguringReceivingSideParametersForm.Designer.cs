@@ -89,7 +89,7 @@
             // 
             // portButtonB
             // 
-            this.portButtonB.Location = new System.Drawing.Point(341, 107);
+            this.portButtonB.Location = new System.Drawing.Point(348, 108);
             this.portButtonB.Margin = new System.Windows.Forms.Padding(4);
             this.portButtonB.Name = "portButtonB";
             this.portButtonB.Size = new System.Drawing.Size(124, 28);
@@ -101,7 +101,7 @@
             // stopBoxB
             // 
             this.stopBoxB.FormattingEnabled = true;
-            this.stopBoxB.Location = new System.Drawing.Point(87, 116);
+            this.stopBoxB.Location = new System.Drawing.Point(120, 116);
             this.stopBoxB.Margin = new System.Windows.Forms.Padding(4);
             this.stopBoxB.Name = "stopBoxB";
             this.stopBoxB.Size = new System.Drawing.Size(160, 24);
@@ -114,9 +114,9 @@
             this.label5.Location = new System.Drawing.Point(8, 119);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(61, 17);
+            this.label5.Size = new System.Drawing.Size(104, 17);
             this.label5.TabIndex = 10;
-            this.label5.Text = "Stop Bit:";
+            this.label5.Text = "Стоповый бит:";
             // 
             // parityBoxB
             // 
@@ -133,9 +133,9 @@
             this.label8.Location = new System.Drawing.Point(8, 86);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(48, 17);
+            this.label8.Size = new System.Drawing.Size(68, 17);
             this.label8.TabIndex = 8;
-            this.label8.Text = "Parity:";
+            this.label8.Text = "Паритет:";
             // 
             // recvTextB
             // 
@@ -152,9 +152,9 @@
             this.label10.Location = new System.Drawing.Point(8, 187);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(71, 17);
+            this.label10.Size = new System.Drawing.Size(77, 17);
             this.label10.TabIndex = 3;
-            this.label10.Text = "Received:";
+            this.label10.Text = "Получено:";
             // 
             // comBoxB
             // 
@@ -172,14 +172,14 @@
             this.label11.Location = new System.Drawing.Point(8, 20);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(70, 17);
+            this.label11.Size = new System.Drawing.Size(75, 17);
             this.label11.TabIndex = 5;
-            this.label11.Text = "Com Port:";
+            this.label11.Text = "Com порт:";
             // 
             // baudBoxB
             // 
             this.baudBoxB.FormattingEnabled = true;
-            this.baudBoxB.Location = new System.Drawing.Point(87, 49);
+            this.baudBoxB.Location = new System.Drawing.Point(209, 50);
             this.baudBoxB.Margin = new System.Windows.Forms.Padding(4);
             this.baudBoxB.Name = "baudBoxB";
             this.baudBoxB.Size = new System.Drawing.Size(160, 24);
@@ -187,7 +187,7 @@
             // 
             // msgBoxB
             // 
-            this.msgBoxB.Location = new System.Drawing.Point(87, 149);
+            this.msgBoxB.Location = new System.Drawing.Point(94, 150);
             this.msgBoxB.Margin = new System.Windows.Forms.Padding(4);
             this.msgBoxB.Name = "msgBoxB";
             this.msgBoxB.Size = new System.Drawing.Size(248, 22);
@@ -199,13 +199,13 @@
             this.label12.Location = new System.Drawing.Point(8, 53);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(79, 17);
+            this.label12.Size = new System.Drawing.Size(193, 17);
             this.label12.TabIndex = 1;
-            this.label12.Text = "Baud Rate:";
+            this.label12.Text = "Скорость передачи данных:";
             // 
             // sendButtonB
             // 
-            this.sendButtonB.Location = new System.Drawing.Point(344, 145);
+            this.sendButtonB.Location = new System.Drawing.Point(351, 145);
             this.sendButtonB.Margin = new System.Windows.Forms.Padding(4);
             this.sendButtonB.Name = "sendButtonB";
             this.sendButtonB.Size = new System.Drawing.Size(121, 28);
@@ -220,9 +220,9 @@
             this.label13.Location = new System.Drawing.Point(8, 153);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(69, 17);
+            this.label13.Size = new System.Drawing.Size(88, 17);
             this.label13.TabIndex = 0;
-            this.label13.Text = "Message:";
+            this.label13.Text = "Сообщение:";
             // 
             // groupBoxA
             // 
@@ -251,7 +251,7 @@
             // 
             // portButtonA
             // 
-            this.portButtonA.Location = new System.Drawing.Point(344, 110);
+            this.portButtonA.Location = new System.Drawing.Point(351, 109);
             this.portButtonA.Margin = new System.Windows.Forms.Padding(4);
             this.portButtonA.Name = "portButtonA";
             this.portButtonA.Size = new System.Drawing.Size(121, 28);
@@ -263,7 +263,7 @@
             // stopBoxA
             // 
             this.stopBoxA.FormattingEnabled = true;
-            this.stopBoxA.Location = new System.Drawing.Point(87, 116);
+            this.stopBoxA.Location = new System.Drawing.Point(120, 116);
             this.stopBoxA.Margin = new System.Windows.Forms.Padding(4);
             this.stopBoxA.Name = "stopBoxA";
             this.stopBoxA.Size = new System.Drawing.Size(160, 24);
@@ -276,14 +276,14 @@
             this.label7.Location = new System.Drawing.Point(8, 119);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(61, 17);
+            this.label7.Size = new System.Drawing.Size(104, 17);
             this.label7.TabIndex = 10;
-            this.label7.Text = "Stop Bit:";
+            this.label7.Text = "Стоповый бит:";
             // 
             // parityBoxA
             // 
             this.parityBoxA.FormattingEnabled = true;
-            this.parityBoxA.Location = new System.Drawing.Point(87, 82);
+            this.parityBoxA.Location = new System.Drawing.Point(84, 83);
             this.parityBoxA.Margin = new System.Windows.Forms.Padding(4);
             this.parityBoxA.Name = "parityBoxA";
             this.parityBoxA.Size = new System.Drawing.Size(160, 24);
@@ -295,9 +295,9 @@
             this.label6.Location = new System.Drawing.Point(8, 86);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(48, 17);
+            this.label6.Size = new System.Drawing.Size(68, 17);
             this.label6.TabIndex = 8;
-            this.label6.Text = "Parity:";
+            this.label6.Text = "Паритет:";
             // 
             // recvTextA
             // 
@@ -314,9 +314,9 @@
             this.label4.Location = new System.Drawing.Point(8, 187);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(71, 17);
+            this.label4.Size = new System.Drawing.Size(77, 17);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Received:";
+            this.label4.Text = "Получено:";
             // 
             // comBoxA
             // 
@@ -334,14 +334,14 @@
             this.label3.Location = new System.Drawing.Point(8, 20);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 17);
+            this.label3.Size = new System.Drawing.Size(75, 17);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Com Port:";
+            this.label3.Text = "Com порт:";
             // 
             // baudBoxA
             // 
             this.baudBoxA.FormattingEnabled = true;
-            this.baudBoxA.Location = new System.Drawing.Point(87, 49);
+            this.baudBoxA.Location = new System.Drawing.Point(209, 48);
             this.baudBoxA.Margin = new System.Windows.Forms.Padding(4);
             this.baudBoxA.Name = "baudBoxA";
             this.baudBoxA.Size = new System.Drawing.Size(160, 24);
@@ -349,7 +349,7 @@
             // 
             // msgBoxA
             // 
-            this.msgBoxA.Location = new System.Drawing.Point(87, 149);
+            this.msgBoxA.Location = new System.Drawing.Point(94, 150);
             this.msgBoxA.Margin = new System.Windows.Forms.Padding(4);
             this.msgBoxA.Name = "msgBoxA";
             this.msgBoxA.Size = new System.Drawing.Size(248, 22);
@@ -361,13 +361,13 @@
             this.label2.Location = new System.Drawing.Point(8, 53);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 17);
+            this.label2.Size = new System.Drawing.Size(193, 17);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Baud Rate:";
+            this.label2.Text = "Скорость передачи данных:";
             // 
             // sendButtonA
             // 
-            this.sendButtonA.Location = new System.Drawing.Point(344, 145);
+            this.sendButtonA.Location = new System.Drawing.Point(351, 145);
             this.sendButtonA.Margin = new System.Windows.Forms.Padding(4);
             this.sendButtonA.Name = "sendButtonA";
             this.sendButtonA.Size = new System.Drawing.Size(121, 28);
@@ -382,9 +382,9 @@
             this.label1.Location = new System.Drawing.Point(8, 153);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 17);
+            this.label1.Size = new System.Drawing.Size(88, 17);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Message:";
+            this.label1.Text = "Сообщение:";
             // 
             // ConfiguringReceivingSideParametersForm
             // 
