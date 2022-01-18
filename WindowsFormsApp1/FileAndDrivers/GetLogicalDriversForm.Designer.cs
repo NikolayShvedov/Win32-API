@@ -40,14 +40,14 @@ namespace WindowsFormsApp1.FileAndDrivers
             this.listBox1.ItemHeight = 16;
             this.listBox1.Location = new System.Drawing.Point(12, 63);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(442, 308);
+            this.listBox1.Size = new System.Drawing.Size(496, 308);
             this.listBox1.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label1.Location = new System.Drawing.Point(7, 22);
+            this.label1.Location = new System.Drawing.Point(12, 21);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(456, 25);
             this.label1.TabIndex = 1;
@@ -58,7 +58,7 @@ namespace WindowsFormsApp1.FileAndDrivers
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(466, 380);
+            this.ClientSize = new System.Drawing.Size(520, 380);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listBox1);
             this.Name = "GetLogicalDrivesForm";

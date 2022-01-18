@@ -32,7 +32,7 @@ namespace WindowsFormsApp1.FileAndDrivers
             }
         }
 
-        private void buttonDelete_Click(object sender, EventArgs e)
+        private void buttonDeleteFile_Click(object sender, EventArgs e)
         {
             listBox1.Items.Add(DeleteFile());
         }

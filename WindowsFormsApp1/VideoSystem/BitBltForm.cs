@@ -11,7 +11,7 @@ namespace WindowsFormsApp1.VideoSystem
 
         public static Int32 SRCINVERT = 0x00660046;
 
-        [DllImportAttribute("gdi32.dll")]
+        [DllImport("gdi32.dll")]
         private static extern int BitBlt(
             IntPtr hdcDest,     // handle to destination DC (device context)
             int nXDest,         // x-coord of destination upper-left corner

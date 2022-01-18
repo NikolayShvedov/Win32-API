@@ -82,7 +82,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(342, 45);
             this.button4.TabIndex = 16;
-            this.button4.Text = "Запись текста в файл docx для последующей печати ";
+            this.button4.Text = "Запись текста в файл doc для последующей печати ";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 

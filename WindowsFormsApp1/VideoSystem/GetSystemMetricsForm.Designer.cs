@@ -34,9 +34,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(388, 278);
+            this.button1.Location = new System.Drawing.Point(317, 278);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(224, 34);
+            this.button1.Size = new System.Drawing.Size(295, 34);
             this.button1.TabIndex = 14;
             this.button1.Text = "Получить системную метрику";
             this.button1.UseVisualStyleBackColor = true;

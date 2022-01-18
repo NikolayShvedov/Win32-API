@@ -64,6 +64,7 @@
             this.buttonDeleteFile.TabIndex = 23;
             this.buttonDeleteFile.Text = "Удалить";
             this.buttonDeleteFile.UseVisualStyleBackColor = true;
+            this.buttonDeleteFile.Click += new System.EventHandler(this.buttonDeleteFile_Click);
             // 
             // listBox1
             // 

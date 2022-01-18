@@ -42,16 +42,16 @@
             this.textBoxPathFile.Location = new System.Drawing.Point(12, 74);
             this.textBoxPathFile.Multiline = true;
             this.textBoxPathFile.Name = "textBoxPathFile";
-            this.textBoxPathFile.Size = new System.Drawing.Size(307, 32);
+            this.textBoxPathFile.Size = new System.Drawing.Size(307, 48);
             this.textBoxPathFile.TabIndex = 0;
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(12, 112);
+            this.listBox1.Location = new System.Drawing.Point(12, 128);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(600, 276);
+            this.listBox1.Size = new System.Drawing.Size(600, 260);
             this.listBox1.TabIndex = 1;
             // 
             // buttonOpen
@@ -79,7 +79,7 @@
             this.textBoxSearchPattern.Location = new System.Drawing.Point(325, 74);
             this.textBoxSearchPattern.Multiline = true;
             this.textBoxSearchPattern.Name = "textBoxSearchPattern";
-            this.textBoxSearchPattern.Size = new System.Drawing.Size(170, 32);
+            this.textBoxSearchPattern.Size = new System.Drawing.Size(170, 48);
             this.textBoxSearchPattern.TabIndex = 4;
             // 
             // label2

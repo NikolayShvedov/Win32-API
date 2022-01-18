@@ -34,11 +34,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(365, 281);
+            this.button1.Location = new System.Drawing.Point(277, 281);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(247, 34);
+            this.button1.Size = new System.Drawing.Size(335, 34);
             this.button1.TabIndex = 12;
-            this.button1.Text = "Получить данных о видеосистеме";
+            this.button1.Text = "Получить данные о видеосистеме";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -51,7 +51,7 @@
             this.listBox1.Size = new System.Drawing.Size(600, 260);
             this.listBox1.TabIndex = 11;
             // 
-            // SystemParametersInfoForm1cs
+            // SystemParametersInfoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -59,7 +59,7 @@
             this.ClientSize = new System.Drawing.Size(638, 332);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listBox1);
-            this.Name = "SystemParametersInfoForm1cs";
+            this.Name = "SystemParametersInfoForm";
             this.Text = "SystemParametersInfoForm1cs";
             this.ResumeLayout(false);
 

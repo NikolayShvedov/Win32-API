@@ -46,5 +46,11 @@ namespace WindowsFormsApp1.CAD_hardware
             MoveFileForm moveFileForm = new MoveFileForm();
             moveFileForm.Show();
         }
+
+        private void buttonDeleteFile_Click(object sender, EventArgs e)
+        {
+            DeleteFileForm deleteFileForm = new DeleteFileForm();
+            deleteFileForm.Show();
+        }
     }
 }
